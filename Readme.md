@@ -24,6 +24,6 @@ This rice requires the following programs:
 
 See the setup in action:
 
-<img src="Screenshots/1.png" width="200" alt="Terminal + Firefox">
-<img src="images/my-image.png" width="200" alt="VS Code Setup">
-<img src="images/my-image.png" width="200" alt="Rofi">
+<img src="Screenshots/1.png" width="600" alt="Terminal + Firefox">
+<img src="Screenshots/2.png" width="600" alt="VS Code Setup">
+<img src="Screenshots/3.png" width="600" alt="Rofi">
