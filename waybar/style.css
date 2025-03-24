@@ -1,0 +1,110 @@
+@define-color base rgba(255, 255, 255, 0.1);
+
+* {
+    font-family: 'CaskaydiaCove Nerd Font', monospace;
+    font-size: 14px;
+}
+
+#waybar {
+    background: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+#clock {
+    
+    padding-top: 5px;   /* This padding increases the whole waybar y size */
+    padding-bottom: 5px;
+
+    margin-top: 5px;    /* The marign-top and bot make the modules not touch the top and bottom edge of the waybar */ 
+    margin-bottom: 5px;
+
+    padding-left: 10px; /* The padding-left and right make the text in the module not so cramped up */
+    padding-right: 10px;
+
+    background: @base;
+    border-radius: 15px;
+}
+
+
+#cpu
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: @base;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+#memory
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: @base;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#temperature
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: @base;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#network
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;       /* Additional margins so it doesn't touch the module left to it */
+    padding-left: 10px;
+    padding-right: 10px;
+    background: @base;
+    border-radius: 15px;
+}
+
+#window
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: @base;
+    border-radius: 15px;
+}
+
+#custom-launcher
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px; /* Do not touch module to the right */
+    padding-left: 10px;
+    padding-right: 10px;
+    background: @base;
+    border-radius: 15px;
+}
+
+#custom-firefox
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px; /* Do not touch module to the right */
+    padding-left: 10px;
+    padding-right: 10px;
+    background: @base;
+    border-radius: 15px;
+}
