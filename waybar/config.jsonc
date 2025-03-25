@@ -1,5 +1,5 @@
 {
-    "modules-right": ["clock"],
+    "modules-right": ["custom/audiotoggle", "clock"],
     "modules-left": ["custom/launcher", "custom/firefox", "cpu", "memory", "temperature", "network"],
     "modules-center": [ "hyprland/window"],
 
@@ -87,4 +87,13 @@
         "on-click": "firefox",
         "on-click-right": "firefox"
     }, 
+
+    "custom/audiotoggle": {
+        "format": "{}",
+        "tooltip": true,
+        "exec": "echo '{\"text\":\"🔈\",\"tooltip\":\"Toggle audio\"}'",
+        "return-type": "json",
+        "on-click": "sh ~/.config/toggle_auto_mute.sh",
+        "on-click-right": "sh ~/.config/toggle_auto_mute.sh"
+    }
 }
