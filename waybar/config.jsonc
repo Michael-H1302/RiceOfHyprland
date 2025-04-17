@@ -1,5 +1,5 @@
 {
-    "modules-right": ["custom/audiotoggle", "clock"],
+    "modules-right": ["custom/shaderoff", "custom/shaderwarm", "custom/shaderdimmed", "custom/audiotoggle", "clock"],
     "modules-left": ["custom/launcher", "custom/firefox", "cpu", "memory", "temperature", "network"],
     "modules-center": [ "hyprland/window"],
 
@@ -19,7 +19,7 @@
     "cpu": {
         "format": " {usage}%",
         "tooltip": true,
-        "on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'btop'",
+        "on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'htop'",
         "interval": 2
     },
     "memory": {
@@ -93,7 +93,34 @@
         "tooltip": true,
         "exec": "echo '{\"text\":\"🔈\",\"tooltip\":\"Toggle audio\"}'",
         "return-type": "json",
-        "on-click": "sh ~/.config/toggle_auto_mute.sh",
+        "on-click": "sh ~/.config/custom_scripts/toggle_auto_mute.sh",
         "on-click-right": "sh ~/.config/toggle_auto_mute.sh"
+    },
+
+    "custom/shaderwarm":{
+        "format": "{}",
+        "tooltip": true,
+        "exec": "echo '{\"text\":\"🔥\",\"tooltip\":\"Turn on warm shader\"}'",
+        "return-type": "json",
+        "on-click": "sh ~/.config/custom_scripts/activate_warm_shader.sh",
+        "on-click-right": "sh ~/.config/activate_warm_shader.sh"
+    },
+
+    "custom/shaderdimmed":{
+        "format": "{}",
+        "tooltip": true,
+        "exec": "echo '{\"text\":\"🌒\",\"tooltip\":\"Turn on dimmed shader\"}'",
+        "return-type": "json",
+        "on-click": "sh ~/.config/custom_scripts/activate_dimmed_shader.sh",
+        "on-click-right": "sh ~/.config/activate_dimmed_shader.sh"
+    },
+    
+    "custom/shaderoff":{
+        "format": "{}",
+        "tooltip": true,
+        "exec": "echo '{\"text\":\"🟦\",\"tooltip\":\"Turn off shader\"}'",
+        "return-type": "json",
+        "on-click": "sh ~/.config/custom_scripts/turn_off_shader.sh",
+        "on-click-right": "sh ~/.config/turn_off_shader.sh"
     }
 }

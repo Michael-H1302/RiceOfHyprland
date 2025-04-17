@@ -119,3 +119,36 @@
     background: @base;
     border-radius: 15px;
 }
+
+#custom-shaderoff
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px; /* Do not touch module to the right */
+    padding-left: 10px;
+    padding-right: 10px;
+    background: @base;
+    border-radius: 15px;
+}
+
+#custom-shaderwarm
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px; /* Do not touch module to the right */
+    padding-left: 10px;
+    padding-right: 10px;
+    background: @base;
+    border-radius: 15px;
+}
+
+#custom-shaderdimmed
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 25px; /* Do not touch module to the right */
+    padding-left: 10px;
+    padding-right: 10px;
+    background: @base;
+    border-radius: 15px;
+}
