@@ -1,7 +1,8 @@
 @define-color base rgba(255, 255, 255, 0.1);
 
 * {
-    font-family: 'CaskaydiaCove Nerd Font', monospace;
+    /*font-family: 'CaskaydiaCove Nerd Font', monospace;*/
+    font-family: 'JetBrainsMono Nerd Font', monospace;
     font-size: 14px;
 }
 
@@ -75,6 +76,10 @@
     padding-right: 10px;
     background: @base;
     border-radius: 15px;
+}
+
+#network > *:first-child {
+    margin-right: 20px; /* adds space between icon and number */
 }
 
 #window
