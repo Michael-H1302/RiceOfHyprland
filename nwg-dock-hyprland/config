@@ -1,0 +1,17 @@
+"buttons": [
+  {
+    "name": "Terminal",
+    "exec": "kitty",
+    "icon": "kitty"
+  },
+  {
+    "name": "Browser",
+    "exec": "firefox",
+    "icon": "firefox"
+  },
+  {
+    "name": "Files",
+    "exec": "thunar",
+    "icon": "system-file-manager"
+  }
+],
