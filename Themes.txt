@@ -1,4 +1,8 @@
-Firefox: Royal Purple Blues
+Zen Browser (AUR zen-browser-bin): https://www.reddit.com/r/zen_browser/comments/1ikrll8/can_i_make_zen_transparent_on_linux/
 Visual Studio Code: Shades of Purple (Super Dark)
-GTK Theme (nwg-look): Dracula (https://www.pling.com/p/1687249/)
-GTK Icons (nwg-look): catppuccin papirus-folders (https://github.com/catppuccin/papirus-folders?tab=readme-ov-file)
+
+GTK Theme (nwg-look): Dracula (https://www.pling.com/p/1687249/) 
+copy to ~/.themes/
+
+GTK Icons (nwg-look): catppuccin papirus-folders (https://github.com/catppuccin/papirus-folders?tab=readme-ov-file) 
+papirus-folders -C violet
