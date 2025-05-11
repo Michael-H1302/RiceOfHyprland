@@ -65,8 +65,8 @@
         "tooltip": true,
         "exec": "echo '{\"text\":\"💧\",\"tooltip\":\"Open rofi launcher\"}'",
         "return-type": "json",
-        "on-click": "pkill rofi || rofi -show drun -n",
-        "on-click-right": "pkill rofi || rofi -show drun -n"
+        "on-click": "sleep 0.2 && hyprctl dispatch hyprexpo:expo toggle",
+        "on-click-right": "sleep 0.2 && hyprctl dispatch hyprexpo:expo toggle"
     },
     
     "custom/firefox": {
