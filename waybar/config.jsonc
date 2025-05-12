@@ -75,7 +75,7 @@
         "exec": "echo '{\"text\":\"🦊\",\"tooltip\":\"Run firefox\"}'",
         "return-type": "json",
         "on-click": "firefox",
-        "on-click-right": "firefox"
+        "on-click-right": "zen-browser"
     }, 
 
     "custom/audiotoggle": {
