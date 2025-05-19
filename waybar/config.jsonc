@@ -83,8 +83,8 @@
         "tooltip": true,
         "exec": "echo '{\"text\":\"🔈\",\"tooltip\":\"Toggle audio\"}'",
         "return-type": "json",
-        "on-click": "sh ~/.config/custom_scripts/toggle_auto_mute.sh",
-        "on-click-right": "sh ~/.config/toggle_auto_mute.sh"
+        "on-click": "sh ~/.config/custom_scripts/waybar_volume_control.sh",
+        "on-click-right": "sh ~/.config/custom_scripts/toggle_auto_mute.sh"
     },
 
     "custom/shaderwarm":{
