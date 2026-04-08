@@ -1,5 +1,5 @@
 # Use custom symbols and colors
-format = """$directory$character"""
+format = """$character"""
 
 # Move the rest of the indicators (git, package versions, etc.) to the right or disable them
 # For a truly minimal setup, we only show the directory and the prompt character
