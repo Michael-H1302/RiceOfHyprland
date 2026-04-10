@@ -28,7 +28,7 @@
     
     "temperature": {
         "format": "🌡 {temperatureC}°C",
-        "hwmon-path": "/sys/class/hwmon/hwmon0/temp1_input", // You might need to change this
+        "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon7/temp1_input", // You might need to change this
         "critical-threshold": 80,
         "interval": 5
       },
